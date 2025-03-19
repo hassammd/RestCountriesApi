@@ -15,7 +15,7 @@ const CountriesCard = ({ name, flags, population, region, capital }) => {
                     className="w-full h-53 object-cover rounded-t-md"
                 />
             </figure>
-            <div className=" flex flex-col text-left sm:p-2 md:p-6">
+            <div className=" flex flex-col text-left p-5 md:p-6">
                 <h2 className="font-bold text-xl">{name}</h2>
                 <p><span className="font-bold">Population: </span>{population}</p>
                 <p><span className="font-bold">Region: </span>{region}</p>
